@@ -105,7 +105,7 @@ p {
 }
 
 .avatars {
-    margin-top: -7vw;
+    margin-top: 0vw;
     animation: bounce 2.5s ease infinite;
 }
 
@@ -115,6 +115,7 @@ p {
 
 /* about  */
 .about {
+    margin-top: 15vh !important;
     background-image: url(../images/kandle.png);
     height: 50vw;
     padding-left: 5vw;
@@ -403,6 +404,14 @@ p {
 }
 
 
+@media screen and (max-width: 768px) {    
+    .tokenomice {
+        margin-top: 200px !important;
+    }
+}
+
+
+
 @media screen and (max-width: 480px) {
 
     p {
@@ -470,11 +479,12 @@ p {
     }
 
     .avatars {
-        margin-top: -4vw;
+        margin-top: 0vw;
         animation: bounce 2.5s ease infinite;
     }
 
     .about {
+        margin-top: 35vh !important;
         padding-left: 5vw;
         margin-top: 15vw;
         height: 120vw;
@@ -500,6 +510,7 @@ p {
     /* tokenomice  */
 
     .tokenomice {
+        margin-top: 250px !important;
         padding: 5vw;
     }
 
