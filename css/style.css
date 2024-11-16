@@ -602,7 +602,7 @@ p {
 
     .roadmap .bg {
         position: absolute;
-        right: -10vw;
+        right: 0vw;
         bottom: 70vw;
         width: 100vw;
         z-index: -1;
@@ -658,6 +658,7 @@ p {
         width: 80vw;
         margin: auto;
         margin-bottom: 2vw;
+        visibility: visible;
     }
 
 }
