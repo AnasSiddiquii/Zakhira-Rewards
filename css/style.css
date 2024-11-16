@@ -366,6 +366,10 @@ p {
     padding: 2vw 5vw;
 }
 
+.footer__image{
+    margin-bottom: 10vh;
+}
+
 .footer h1 {
     font-size: 14vw;
     text-align: center;
@@ -620,6 +624,10 @@ p {
 
     /* footer  */
 
+    .footer__image{
+        margin-bottom: 5vh;
+    }
+    
     .footer h1 {
         font-size: 20vw;
         text-align: center;
