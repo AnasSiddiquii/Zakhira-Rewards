@@ -9,6 +9,9 @@
     box-sizing: border-box;
 }
 
+.animate__fadeInUp {
+    margin-top: 4rem;
+}
 @font-face {
     font-family: CCMaladroit;
     src: url(../fonts/Brocats.otf);
