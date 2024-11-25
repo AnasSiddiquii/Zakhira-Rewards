@@ -118,7 +118,7 @@ p {
 
 /* about  */
 .about {
-    margin-top: 45vh !important;
+    margin-top: 25vh !important;
     background-image: url(../images/kandle.png);
     height: 50vw;
     padding-left: 5vw;
@@ -146,6 +146,7 @@ p {
 }
 
 .tokenomice {
+    margin-top: -100px !important;
     padding: 5vw;
 }
 
@@ -165,6 +166,10 @@ p {
     display: flex;
     align-items: center;
     gap: 1vw;
+}
+
+.right-shift {
+    margin-left: 11vw;
 }
 
 .toc-box img {
@@ -491,7 +496,7 @@ p {
     }
 
     .about {
-        margin-top: 35vh !important;
+        margin-top: 25vh !important;
         padding-left: 5vw;
         margin-top: 15vw;
         height: 120vw;
@@ -517,7 +522,7 @@ p {
     /* tokenomice  */
 
     .tokenomice {
-        margin-top: 250px !important;
+        margin-top: 350px !important;
         padding: 5vw;
     }
 
@@ -535,6 +540,10 @@ p {
         display: flex;
         align-items: center;
         gap: 1vw;
+    }
+
+    .right-shift {
+        margin-left: 21vw;
     }
 
     .toc-box img {
@@ -665,3 +674,4 @@ p {
     }
 
 }
+
