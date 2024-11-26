@@ -27,7 +27,7 @@ body {
     font-family: CCMaladroit;
     font-weight: 400;
     color: #fff;
-    background-color: #6B00CD;
+    background-color: #717689;
     overflow-x: hidden;
 
 }
@@ -91,7 +91,7 @@ p {
 
 .header .buy {
     background-color: #717689;
-    color: #FFDD58;
+    color: #e1903f;
     border-radius: 4vw;
     border: 2px solid #000;
     width: fit-content;
@@ -125,7 +125,7 @@ p {
 }
 
 .about h2 {
-    background-color: #FFDD00;
+    background-color: #e1903f;
     border: 2px solid #000;
     border-radius: 5vw;
     padding: 1vw 3vw;
@@ -139,7 +139,7 @@ p {
 
 .about h3 {
     font-size: 3vw;
-    color: #FFDD00;
+    color: #e1903f;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
     margin-top: 3vw;
@@ -156,7 +156,7 @@ p {
 
 .tokenomice h1 {
     font-size: 5vw;
-    color: #FFDD00;
+    color: #e1903f;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
     text-align: center;
@@ -182,21 +182,21 @@ p {
 
 .toc-box p {
     font-size: 2vw;
-    color: #FFDD00;
+    color: #e1903f;
 }
 
 
 
 /* howtobuy */
 .howtobuy {
-    background-color: #FFDD00;
+    background-color: #e1903f;
     border-radius: 10vw;
     padding: 10vw 5vw;
 }
 
 .howtobuy h1 {
     font-size: 6vw;
-    color: #6B00CD;
+    color: #717689;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
     line-height: 6vw;
@@ -213,7 +213,7 @@ p {
 }
 
 .howtobuy h2 {
-    background-color: #6B00CD;
+    background-color: #717689;
     border: 2px solid #000;
     border-radius: 5vw;
     padding: 1vw 3vw;
@@ -247,7 +247,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #6B00CD;
+    background-color: #717689;
     font-size: 3vw;
     margin-top: -8vw;
 }
@@ -274,7 +274,7 @@ p {
 
 .roadmap h1 {
     font-size: 8vw;
-    color: #FFDD00;
+    color: #e1903f;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
     line-height: 6vw;
@@ -283,7 +283,7 @@ p {
 
 
 .roadmap h2 {
-    background-color: #FFDD00;
+    background-color: #e1903f;
     border: 2px solid #000;
     border-radius: 5vw;
     padding: 1vw 3vw;
@@ -306,7 +306,7 @@ p {
 
 /* join  */
 .join {
-    background-color: #FFDD00;
+    background-color: #e1903f;
     border-top-left-radius: 20vw;
     border-top-right-radius: 20vw;
     padding: 8vw 5vw;
@@ -314,7 +314,7 @@ p {
 
 .join h1 {
     font-size: 8vw;
-    color: #6B00CD;
+    color: #717689;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
     line-height: 6vw;
@@ -344,7 +344,7 @@ p {
 
 .join .links a {
     background-color: #717689;
-    color: #FFDD58;
+    color: #e1903f;
     border-radius: 4vw;
     border: 2px solid #000;
     width: fit-content;
@@ -474,7 +474,7 @@ p {
 
     .header .buy {
         background-color: #717689;
-        color: #FFDD58;
+        color: #e1903f;
         border-radius: 4vw;
         border: 2px solid #000;
         width: fit-content;
@@ -556,7 +556,7 @@ p {
 
     .toc-box p {
         font-size: 4vw;
-        color: #FFDD00;
+        color: #e1903f;
     }
 
     /* howtobuy */
