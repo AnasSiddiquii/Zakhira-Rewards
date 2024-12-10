@@ -26,8 +26,8 @@ html {
 body {
     font-family: CCMaladroit;
     font-weight: 400;
-    color: #fff;
-    background-color: #717689;
+    color: #000;
+    background-color: #fff;
     overflow-x: hidden;
 
 }
@@ -54,6 +54,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 22vw;
 }
 
 
@@ -90,7 +91,7 @@ p {
 }
 
 .header .buy {
-    background-color: #717689;
+    background-color: #fff;
     color: #e1903f;
     border-radius: 4vw;
     border: 2px solid #000;
@@ -168,8 +169,10 @@ p {
     gap: 1vw;
 }
 
-.right-shift {
-    margin-left: 11vw;
+.incomes-img {
+    width: 300px !important;
+    margin-top: 50px !important;
+    margin-bottom: 30px !important;
 }
 
 .toc-box img {
@@ -196,7 +199,7 @@ p {
 
 .howtobuy h1 {
     font-size: 6vw;
-    color: #717689;
+    color: #fff;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
     line-height: 6vw;
@@ -213,7 +216,7 @@ p {
 }
 
 .howtobuy h2 {
-    background-color: #717689;
+    background-color: #fff;
     border: 2px solid #000;
     border-radius: 5vw;
     padding: 1vw 3vw;
@@ -230,7 +233,7 @@ p {
     border-radius: 4vw;
     border: 4px solid #000;
     rotate: -4deg;
-    background-color: #717689;
+    background-color: #fff;
 }
 
 .box_2 {
@@ -242,12 +245,12 @@ p {
     height: 5vw;
     border-radius: 50%;
     border: 4px solid #000;
-    color: #fff;
+    color: #000;
     display: block;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #717689;
+    background-color: #fff;
     font-size: 3vw;
     margin-top: -8vw;
 }
@@ -314,7 +317,7 @@ p {
 
 .join h1 {
     font-size: 8vw;
-    color: #717689;
+    color: #fff;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
     line-height: 6vw;
@@ -343,7 +346,7 @@ p {
 }
 
 .join .links a {
-    background-color: #717689;
+    background-color: #fff;
     color: #e1903f;
     border-radius: 4vw;
     border: 2px solid #000;
@@ -442,8 +445,8 @@ p {
 
     .header .header_main {
         flex-direction: column-reverse;
+        margin-left: 0vw;
     }
-
     .header .heading {
         width: 50vw;
         margin-left: 10vw;
@@ -473,7 +476,7 @@ p {
 
 
     .header .buy {
-        background-color: #717689;
+        background-color: #fff;
         color: #e1903f;
         border-radius: 4vw;
         border: 2px solid #000;
@@ -542,8 +545,8 @@ p {
         gap: 1vw;
     }
 
-    .right-shift {
-        margin-left: 21vw;
+    .incomes-img {
+        width: 200px !important;
     }
 
     .toc-box img {
