@@ -10,7 +10,7 @@
 }
 
 .animate__fadeInUp {
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 @font-face {
     font-family: CCMaladroit;
@@ -120,7 +120,7 @@ p {
 /* about  */
 .about {
     margin-top: 25vh !important;
-    background-image: url(../images/kandle.png);
+    /* background-image: url(../images/kandle.png); */
     height: 50vw;
     padding-left: 5vw;
 }
@@ -499,7 +499,7 @@ p {
     }
 
     .about {
-        margin-top: 25vh !important;
+        margin-top: 10vh !important;
         padding-left: 5vw;
         margin-top: 15vw;
         height: 120vw;
