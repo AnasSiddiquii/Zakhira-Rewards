@@ -14,7 +14,9 @@
 }
 @font-face {
     font-family: CCMaladroit;
-    src: url(../fonts/Brocats.otf);
+    /* src: url(../fonts/Brocats.otf); */
+    src: url(../fonts/Raleway/Raleway-VariableFont_wght.ttf);
+    
 }
 
 html {
@@ -91,11 +93,11 @@ p {
 }
 
 .header .buy {
-    background-color: #fff;
-    color: #e1903f;
+    background-color: #e1903f;
+    color: #fff;
     border-radius: 4vw;
     border: 2px solid #000;
-    width: fit-content;
+    width: 100%;
     padding: 1vw 3vw;
     margin-top: 2vw;
     rotate: 3deg;
@@ -119,7 +121,7 @@ p {
 
 /* about  */
 .about {
-    margin-top: 25vh !important;
+    /* margin-top: 25vh !important; */
     /* background-image: url(../images/kandle.png); */
     height: 50vw;
     padding-left: 5vw;
@@ -147,7 +149,7 @@ p {
 }
 
 .tokenomice {
-    margin-top: -100px !important;
+    margin-top: -200px !important;
     padding: 5vw;
 }
 
@@ -185,7 +187,6 @@ p {
 
 .toc-box p {
     font-size: 2vw;
-    color: #e1903f;
 }
 
 
@@ -312,8 +313,14 @@ p {
     background-color: #e1903f;
     border-top-left-radius: 20vw;
     border-top-right-radius: 20vw;
-    padding: 8vw 5vw;
+    padding: 5vw;
 }
+
+/* .join-links{
+    background: white;
+    border-radius: 25px;
+    margin-top: -100px !important;
+} */
 
 .join h1 {
     font-size: 8vw;
@@ -346,10 +353,10 @@ p {
 }
 
 .join .links a {
-    background-color: #fff;
+    /* background-color: #fff; */
     color: #e1903f;
     border-radius: 4vw;
-    border: 2px solid #000;
+    /* border: 2px solid #000; */
     width: fit-content;
     padding: 1vw 3vw;
     margin-top: 0vw;
@@ -421,7 +428,7 @@ p {
 
 @media screen and (max-width: 768px) {    
     .tokenomice {
-        margin-top: 200px !important;
+        margin-top: 250px !important;
     }
 }
 
@@ -480,7 +487,7 @@ p {
         color: #e1903f;
         border-radius: 4vw;
         border: 2px solid #000;
-        width: fit-content;
+        width: 100%;
         padding: 1vw 3vw;
         margin-top: 2vw;
         rotate: 3deg;
@@ -499,7 +506,7 @@ p {
     }
 
     .about {
-        margin-top: 10vh !important;
+        /* margin-top: 10vh !important; */
         padding-left: 5vw;
         margin-top: 15vw;
         height: 120vw;
@@ -525,7 +532,7 @@ p {
     /* tokenomice  */
 
     .tokenomice {
-        margin-top: 350px !important;
+        margin-top: 50px !important;
         padding: 5vw;
     }
 
@@ -559,7 +566,6 @@ p {
 
     .toc-box p {
         font-size: 4vw;
-        color: #e1903f;
     }
 
     /* howtobuy */
