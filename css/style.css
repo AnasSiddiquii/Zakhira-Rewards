@@ -97,10 +97,8 @@ p {
     color: #fff;
     border-radius: 4vw;
     border: 2px solid #000;
-    width: 100%;
     padding: 1vw 3vw;
     margin-top: 2vw;
-    rotate: 3deg;
     transition: all 0.3s ease-in-out;
     font-size: 2vw;
     text-wrap: nowrap;
@@ -121,8 +119,7 @@ p {
 
 /* about  */
 .about {
-    /* margin-top: 25vh !important; */
-    /* background-image: url(../images/kandle.png); */
+    margin: 275px 0 150px 0;
     height: 50vw;
     padding-left: 5vw;
 }
@@ -426,9 +423,15 @@ p {
 }
 
 
+@media screen and (max-width: 1024px) {    
+    .about {
+        margin: 475px 0 200px 0;
+    }
+}
+
 @media screen and (max-width: 768px) {    
-    .tokenomice {
-        margin-top: 250px !important;
+    .about {
+        margin: 475px 0 200px 0;
     }
 }
 
@@ -483,14 +486,12 @@ p {
 
 
     .header .buy {
-        background-color: #fff;
-        color: #e1903f;
+        background-color: #e1903f;
+        color: #fff;
         border-radius: 4vw;
         border: 2px solid #000;
-        width: 100%;
         padding: 1vw 3vw;
         margin-top: 2vw;
-        rotate: 3deg;
         transition: all 0.3s ease-in-out;
         font-size: 4vw;
         text-wrap: nowrap;
@@ -506,9 +507,8 @@ p {
     }
 
     .about {
-        /* margin-top: 10vh !important; */
+        margin: 150px 0 200px 0;
         padding-left: 5vw;
-        margin-top: 15vw;
         height: 120vw;
     }
 
@@ -532,7 +532,7 @@ p {
     /* tokenomice  */
 
     .tokenomice {
-        margin-top: 50px !important;
+        margin: 50px 0 !important;
         padding: 5vw;
     }
 
