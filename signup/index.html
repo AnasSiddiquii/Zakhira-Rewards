@@ -17,6 +17,8 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            font-family: 'Arial', sans-serif;
+            animation: fadeIn 1s ease-in;
         }
 
         .card {
@@ -26,6 +28,8 @@
             background: #fff;
             width: 100%;
             max-width: 500px;
+            opacity: 0;
+            animation: slideIn 1s ease-out forwards;
         }
 
         .btn-custom {
@@ -33,6 +37,7 @@
             color: #fff;
             border-radius: 5px;
             width: 100%;
+            transition: background-color 0.3s ease;
         }
 
         .btn-custom:hover {
@@ -44,8 +49,9 @@
             font-weight: bold;
             color: #e1903f;
             text-align: center;
+            animation: slideInTitle 1s ease-out;
         }
-        
+
         .question {
             font-size: 0.9rem;
             text-align: center;
@@ -60,6 +66,47 @@
         .question a:hover {
             text-decoration: underline;
         }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(-20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideInTitle {
+            from {
+                transform: translateY(-30px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        /* Loading Spinner */
+        .spinner-border {
+            display: none;
+            width: 30px;
+            height: 30px;
+            margin-left: 10px;
+        }
+
     </style>
 </head>
 <body>
@@ -67,7 +114,7 @@
     <div class="card">
         <div class="section-title mb-3">User Signup</div>
 
-        <form>
+        <form id="signupForm">
             <!-- Name -->
             <div class="mb-3">
                 <label for="name" class="form-label">Name *</label>
@@ -94,7 +141,12 @@
 
             <!-- Signup Button -->
             <div class="text-center">
-                <button type="submit" class="btn btn-custom">Register</button>
+                <button type="submit" class="btn btn-custom">
+                    Register
+                    <div class="spinner-border text-light" role="status" id="loadingSpinner">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </button>
             </div>
 
             <!-- Signup -->
@@ -106,5 +158,40 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // Handle form submission with animation and show loading spinner
+        document.getElementById("signupForm").addEventListener("submit", function(event) {
+            event.preventDefault();  // Prevent the form from submitting
+
+            var signupButton = event.target.querySelector("button");
+            var spinner = document.getElementById("loadingSpinner");
+
+            // Validate fields before proceeding
+            var name = document.getElementById("name").value;
+            var mobile = document.getElementById("mobile").value;
+            var city = document.getElementById("city").value;
+            var sponsor = document.getElementById("sponsor").value;
+
+            if (!name || !mobile || !city || !sponsor) {
+                alert("All fields are required!");
+                return;
+            }
+
+            // Show loading spinner
+            spinner.style.display = "inline-block";
+            signupButton.disabled = true;
+
+            // Simulate a signup process with a timeout (Replace this with actual signup logic)
+            setTimeout(function() {
+                // Hide loading spinner after process is done
+                spinner.style.display = "none";
+                signupButton.disabled = false;
+
+                // Simulate successful signup (you can redirect to a dashboard, for example)
+                alert("Signup successful!");
+            }, 2000);  // Simulate a 2-second signup process
+        });
+    </script>
 </body>
 </html>
