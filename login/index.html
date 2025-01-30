@@ -117,12 +117,28 @@
             margin-left: 10px;
         }
 
+        @keyframes wobble {
+            0% { transform: rotate(0deg); }
+            25% { transform: rotate(-5deg); }
+            50% { transform: rotate(5deg); }
+            75% { transform: rotate(-3deg); }
+            100% { transform: rotate(0deg); }
+        }
+
+        .logo-img {
+            display: block;
+            margin: 0 auto;
+            width: 250px;
+            animation: wobble 1s infinite;
+        }
+
     </style>
 </head>
 <body>
 
     <div class="login-card">
-        <div class="section-title mb-3">User Login</div>
+        <img class="logo-img" src="../assets/images/Zakhira.png" alt="">
+        <div class="section-title my-4">User Login</div>
 
         <form id="loginForm">
             <!-- Login ID -->
